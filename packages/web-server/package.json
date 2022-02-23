@@ -21,11 +21,15 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
+    "@faker-js/faker": "^6.0.0-alpha.7",
     "@nestjs/common": "^8.0.0",
     "@nestjs/core": "^8.0.0",
     "@nestjs/platform-express": "^8.0.0",
     "@nestjs/platform-fastify": "^8.3.1",
     "@nestjs/terminus": "^8.0.4",
+    "@typedorm/common": "^1.14.9",
+    "@typedorm/core": "^1.14.9",
+    "aws-sdk": "^2.1079.0",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
     "rxjs": "^7.2.0"
